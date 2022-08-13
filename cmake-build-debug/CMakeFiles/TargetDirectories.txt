@@ -1,0 +1,3 @@
+/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles/OpenGLLinuxTest1.dir

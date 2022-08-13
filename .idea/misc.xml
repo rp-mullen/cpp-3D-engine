@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+  <component name="CidrRootsConfiguration">
+    <sourceRoots>
+      <file path="$PROJECT_DIR$/include/GLAD" />
+      <file path="$PROJECT_DIR$/include/GLFW" />
+      <file path="$PROJECT_DIR$/include/glm" />
+      <file path="$PROJECT_DIR$/src/engine" />
+      <file path="$PROJECT_DIR$/src/main" />
+      <file path="$PROJECT_DIR$/src/renderer" />
+      <file path="$PROJECT_DIR$/src/util" />
+    </sourceRoots>
+    <libraryRoots>
+      <file path="$PROJECT_DIR$/include" />
+    </libraryRoots>
+  </component>
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+</project>

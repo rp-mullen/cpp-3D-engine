@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="OpenGLLinuxTest"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/mu/CLionProjects/GLProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/mu/CLionProjects/GLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/mu/CLionProjects/GLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/mu/CLionProjects/GLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/mu/CLionProjects/GLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/mu/CLionProjects/GLProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/mu/CLionProjects/GLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/mu/CLionProjects/GLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/mu/CLionProjects/GLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/mu/CLionProjects/GLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/mu/CLionProjects/GLProject/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/mu/CLionProjects/GLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/mu/CLionProjects/GLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/mu/CLionProjects/GLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/mu/CLionProjects/GLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGLLinuxTest1">
+				<Option output="/home/mu/CLionProjects/GLProject/cmake-build-debug/OpenGLLinuxTest1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mu/CLionProjects/GLProject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/mu/CLionProjects/GLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGLLinuxTest1"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/mu/CLionProjects/GLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/mu/CLionProjects/GLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/mu/CLionProjects/GLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenGLLinuxTest1/fast">
+				<Option output="/home/mu/CLionProjects/GLProject/cmake-build-debug/OpenGLLinuxTest1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mu/CLionProjects/GLProject/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/mu/CLionProjects/GLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGLLinuxTest1/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/mu/CLionProjects/GLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/mu/CLionProjects/GLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/mu/CLionProjects/GLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/mu/CLionProjects/GLProject/include/GLAD/glad.c">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/include/GLAD/glad.h">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/debug/Triangle2D.cpp">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/debug/Triangle2D.h">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/engine/Camera.cpp">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/engine/Camera.h">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/engine/Window.cpp">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/engine/Window.h">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/main/Main.cpp">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/renderer/IndexBuffer.cpp">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/renderer/IndexBuffer.h">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/renderer/Renderer.cpp">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/renderer/Renderer.h">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/renderer/Shader.cpp">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/renderer/Shader.h">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/renderer/VertexArray.cpp">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/renderer/VertexArray.h">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/renderer/VertexBuffer.cpp">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/renderer/VertexBuffer.h">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/util/Settings.h">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

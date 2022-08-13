@@ -1,0 +1,57 @@
+The system is: Linux - 5.18.15-arch1-2 - x86_64
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9ac24/fast && /usr/bin/make -f CMakeFiles/cmTC_9ac24.dir/build.make CMakeFiles/cmTC_9ac24.dir/build
+make[1]: Entering directory '/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ac24.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9ac24.dir/testCCompiler.c.o   -c /home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_9ac24
+"/home/mu/Downloads/[FTUApps.com] - JetBrains CLion 2020.1 Build 201.6668.126 Win & MacOS & Linux + Crack/JetBrains CLion 2020.1 Build 201.6668.126 for Linux/CLion-2020.1/clion-2020.1/bin/cmake/linux/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_9ac24.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_9ac24.dir/testCCompiler.c.o  -o cmTC_9ac24 
+make[1]: Leaving directory '/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_62073/fast && /usr/bin/make -f CMakeFiles/cmTC_62073.dir/build.make CMakeFiles/cmTC_62073.dir/build
+make[1]: Entering directory '/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62073.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_62073.dir/CMakeCCompilerABI.c.o   -c "/home/mu/Downloads/[FTUApps.com] - JetBrains CLion 2020.1 Build 201.6668.126 Win & MacOS & Linux + Crack/JetBrains CLion 2020.1 Build 201.6668.126 for Linux/CLion-2020.1/clion-2020.1/bin/cmake/linux/share/cmake-3.16/Modules/CMakeCCompilerABI.c"
+Linking C executable cmTC_62073
+"/home/mu/Downloads/[FTUApps.com] - JetBrains CLion 2020.1 Build 201.6668.126 Win & MacOS & Linux + Crack/JetBrains CLion 2020.1 Build 201.6668.126 for Linux/CLion-2020.1/clion-2020.1/bin/cmake/linux/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_62073.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_62073.dir/CMakeCCompilerABI.c.o  -o cmTC_62073 
+make[1]: Leaving directory '/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_43cf7/fast && /usr/bin/make -f CMakeFiles/cmTC_43cf7.dir/build.make CMakeFiles/cmTC_43cf7.dir/build
+make[1]: Entering directory '/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_43cf7.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_43cf7.dir/testCXXCompiler.cxx.o -c /home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_43cf7
+"/home/mu/Downloads/[FTUApps.com] - JetBrains CLion 2020.1 Build 201.6668.126 Win & MacOS & Linux + Crack/JetBrains CLion 2020.1 Build 201.6668.126 for Linux/CLion-2020.1/clion-2020.1/bin/cmake/linux/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_43cf7.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_43cf7.dir/testCXXCompiler.cxx.o  -o cmTC_43cf7 
+make[1]: Leaving directory '/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7a2c0/fast && /usr/bin/make -f CMakeFiles/cmTC_7a2c0.dir/build.make CMakeFiles/cmTC_7a2c0.dir/build
+make[1]: Entering directory '/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7a2c0.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_7a2c0.dir/CMakeCXXCompilerABI.cpp.o -c "/home/mu/Downloads/[FTUApps.com] - JetBrains CLion 2020.1 Build 201.6668.126 Win & MacOS & Linux + Crack/JetBrains CLion 2020.1 Build 201.6668.126 for Linux/CLion-2020.1/clion-2020.1/bin/cmake/linux/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTC_7a2c0
+"/home/mu/Downloads/[FTUApps.com] - JetBrains CLion 2020.1 Build 201.6668.126 Win & MacOS & Linux + Crack/JetBrains CLion 2020.1 Build 201.6668.126 for Linux/CLion-2020.1/clion-2020.1/bin/cmake/linux/bin/cmake" -E cmake_link_script CMakeFiles/cmTC_7a2c0.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_7a2c0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7a2c0 
+make[1]: Leaving directory '/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
