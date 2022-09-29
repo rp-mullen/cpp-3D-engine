@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/home/mu/Downloads/[FTUApps.com] - JetBrains CLion 2020.1 Build 201.6668.126 Win & MacOS & Linux + Crack/JetBrains CLion 2020.1 Build 201.6668.126 for Linux/CLion-2020.1/clion-2020.1/bin/cmake/linux/bin/cmake"
+CMAKE_COMMAND = /home/mu/Downloads/CLion/CLion/CLion-2020.1/clion-2020.1/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = "/home/mu/Downloads/[FTUApps.com] - JetBrains CLion 2020.1 Build 201.6668.126 Win & MacOS & Linux + Crack/JetBrains CLion 2020.1 Build 201.6668.126 for Linux/CLion-2020.1/clion-2020.1/bin/cmake/linux/bin/cmake" -E remove -f
+RM = /home/mu/Downloads/CLion/CLion/CLion-2020.1/clion-2020.1/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/mu/CLionProjects/GLProject/cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"/home/mu/Downloads/[FTUApps.com] - JetBrains CLion 2020.1 Build 201.6668.126 Win & MacOS & Linux + Crack/JetBrains CLion 2020.1 Build 201.6668.126 for Linux/CLion-2020.1/clion-2020.1/bin/cmake/linux/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/mu/Downloads/CLion/CLion/CLion-2020.1/clion-2020.1/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"/home/mu/Downloads/[FTUApps.com] - JetBrains CLion 2020.1 Build 201.6668.126 Win & MacOS & Linux + Crack/JetBrains CLion 2020.1 Build 201.6668.126 for Linux/CLion-2020.1/clion-2020.1/bin/cmake/linux/bin/cmake" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/mu/Downloads/CLion/CLion/CLion-2020.1/clion-2020.1/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -150,32 +150,59 @@ include/GLAD/glad.c.s:
 	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/include/GLAD/glad.c.s
 .PHONY : include/GLAD/glad.c.s
 
-src/debug/Triangle2D.o: src/debug/Triangle2D.cpp.o
+src/debug/DebugCube.o: src/debug/DebugCube.cpp.o
 
-.PHONY : src/debug/Triangle2D.o
+.PHONY : src/debug/DebugCube.o
 
 # target to build an object file
-src/debug/Triangle2D.cpp.o:
-	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/debug/Triangle2D.cpp.o
-.PHONY : src/debug/Triangle2D.cpp.o
+src/debug/DebugCube.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.o
+.PHONY : src/debug/DebugCube.cpp.o
 
-src/debug/Triangle2D.i: src/debug/Triangle2D.cpp.i
+src/debug/DebugCube.i: src/debug/DebugCube.cpp.i
 
-.PHONY : src/debug/Triangle2D.i
+.PHONY : src/debug/DebugCube.i
 
 # target to preprocess a source file
-src/debug/Triangle2D.cpp.i:
-	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/debug/Triangle2D.cpp.i
-.PHONY : src/debug/Triangle2D.cpp.i
+src/debug/DebugCube.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.i
+.PHONY : src/debug/DebugCube.cpp.i
 
-src/debug/Triangle2D.s: src/debug/Triangle2D.cpp.s
+src/debug/DebugCube.s: src/debug/DebugCube.cpp.s
 
-.PHONY : src/debug/Triangle2D.s
+.PHONY : src/debug/DebugCube.s
 
 # target to generate assembly for a file
-src/debug/Triangle2D.cpp.s:
-	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/debug/Triangle2D.cpp.s
-.PHONY : src/debug/Triangle2D.cpp.s
+src/debug/DebugCube.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.s
+.PHONY : src/debug/DebugCube.cpp.s
+
+src/debug/DebugPrism.o: src/debug/DebugPrism.cpp.o
+
+.PHONY : src/debug/DebugPrism.o
+
+# target to build an object file
+src/debug/DebugPrism.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.o
+.PHONY : src/debug/DebugPrism.cpp.o
+
+src/debug/DebugPrism.i: src/debug/DebugPrism.cpp.i
+
+.PHONY : src/debug/DebugPrism.i
+
+# target to preprocess a source file
+src/debug/DebugPrism.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.i
+.PHONY : src/debug/DebugPrism.cpp.i
+
+src/debug/DebugPrism.s: src/debug/DebugPrism.cpp.s
+
+.PHONY : src/debug/DebugPrism.s
+
+# target to generate assembly for a file
+src/debug/DebugPrism.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.s
+.PHONY : src/debug/DebugPrism.cpp.s
 
 src/engine/Camera.o: src/engine/Camera.cpp.o
 
@@ -203,6 +230,60 @@ src/engine/Camera.s: src/engine/Camera.cpp.s
 src/engine/Camera.cpp.s:
 	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Camera.cpp.s
 .PHONY : src/engine/Camera.cpp.s
+
+src/engine/Component.o: src/engine/Component.cpp.o
+
+.PHONY : src/engine/Component.o
+
+# target to build an object file
+src/engine/Component.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.o
+.PHONY : src/engine/Component.cpp.o
+
+src/engine/Component.i: src/engine/Component.cpp.i
+
+.PHONY : src/engine/Component.i
+
+# target to preprocess a source file
+src/engine/Component.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.i
+.PHONY : src/engine/Component.cpp.i
+
+src/engine/Component.s: src/engine/Component.cpp.s
+
+.PHONY : src/engine/Component.s
+
+# target to generate assembly for a file
+src/engine/Component.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.s
+.PHONY : src/engine/Component.cpp.s
+
+src/engine/GameObject.o: src/engine/GameObject.cpp.o
+
+.PHONY : src/engine/GameObject.o
+
+# target to build an object file
+src/engine/GameObject.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/engine/GameObject.cpp.o
+.PHONY : src/engine/GameObject.cpp.o
+
+src/engine/GameObject.i: src/engine/GameObject.cpp.i
+
+.PHONY : src/engine/GameObject.i
+
+# target to preprocess a source file
+src/engine/GameObject.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/engine/GameObject.cpp.i
+.PHONY : src/engine/GameObject.cpp.i
+
+src/engine/GameObject.s: src/engine/GameObject.cpp.s
+
+.PHONY : src/engine/GameObject.s
+
+# target to generate assembly for a file
+src/engine/GameObject.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/engine/GameObject.cpp.s
+.PHONY : src/engine/GameObject.cpp.s
 
 src/engine/Window.o: src/engine/Window.cpp.o
 
@@ -285,6 +366,33 @@ src/renderer/IndexBuffer.cpp.s:
 	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/IndexBuffer.cpp.s
 .PHONY : src/renderer/IndexBuffer.cpp.s
 
+src/renderer/Mesh.o: src/renderer/Mesh.cpp.o
+
+.PHONY : src/renderer/Mesh.o
+
+# target to build an object file
+src/renderer/Mesh.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.o
+.PHONY : src/renderer/Mesh.cpp.o
+
+src/renderer/Mesh.i: src/renderer/Mesh.cpp.i
+
+.PHONY : src/renderer/Mesh.i
+
+# target to preprocess a source file
+src/renderer/Mesh.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.i
+.PHONY : src/renderer/Mesh.cpp.i
+
+src/renderer/Mesh.s: src/renderer/Mesh.cpp.s
+
+.PHONY : src/renderer/Mesh.s
+
+# target to generate assembly for a file
+src/renderer/Mesh.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.s
+.PHONY : src/renderer/Mesh.cpp.s
+
 src/renderer/Renderer.o: src/renderer/Renderer.cpp.o
 
 .PHONY : src/renderer/Renderer.o
@@ -338,6 +446,33 @@ src/renderer/Shader.s: src/renderer/Shader.cpp.s
 src/renderer/Shader.cpp.s:
 	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Shader.cpp.s
 .PHONY : src/renderer/Shader.cpp.s
+
+src/renderer/Texture.o: src/renderer/Texture.cpp.o
+
+.PHONY : src/renderer/Texture.o
+
+# target to build an object file
+src/renderer/Texture.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Texture.cpp.o
+.PHONY : src/renderer/Texture.cpp.o
+
+src/renderer/Texture.i: src/renderer/Texture.cpp.i
+
+.PHONY : src/renderer/Texture.i
+
+# target to preprocess a source file
+src/renderer/Texture.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Texture.cpp.i
+.PHONY : src/renderer/Texture.cpp.i
+
+src/renderer/Texture.s: src/renderer/Texture.cpp.s
+
+.PHONY : src/renderer/Texture.s
+
+# target to generate assembly for a file
+src/renderer/Texture.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Texture.cpp.s
+.PHONY : src/renderer/Texture.cpp.s
 
 src/renderer/VertexArray.o: src/renderer/VertexArray.cpp.o
 
@@ -393,6 +528,114 @@ src/renderer/VertexBuffer.cpp.s:
 	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexBuffer.cpp.s
 .PHONY : src/renderer/VertexBuffer.cpp.s
 
+src/renderer/stb.o: src/renderer/stb.cpp.o
+
+.PHONY : src/renderer/stb.o
+
+# target to build an object file
+src/renderer/stb.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/stb.cpp.o
+.PHONY : src/renderer/stb.cpp.o
+
+src/renderer/stb.i: src/renderer/stb.cpp.i
+
+.PHONY : src/renderer/stb.i
+
+# target to preprocess a source file
+src/renderer/stb.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/stb.cpp.i
+.PHONY : src/renderer/stb.cpp.i
+
+src/renderer/stb.s: src/renderer/stb.cpp.s
+
+.PHONY : src/renderer/stb.s
+
+# target to generate assembly for a file
+src/renderer/stb.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/stb.cpp.s
+.PHONY : src/renderer/stb.cpp.s
+
+src/scenes/EditorScene.o: src/scenes/EditorScene.cpp.o
+
+.PHONY : src/scenes/EditorScene.o
+
+# target to build an object file
+src/scenes/EditorScene.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/EditorScene.cpp.o
+.PHONY : src/scenes/EditorScene.cpp.o
+
+src/scenes/EditorScene.i: src/scenes/EditorScene.cpp.i
+
+.PHONY : src/scenes/EditorScene.i
+
+# target to preprocess a source file
+src/scenes/EditorScene.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/EditorScene.cpp.i
+.PHONY : src/scenes/EditorScene.cpp.i
+
+src/scenes/EditorScene.s: src/scenes/EditorScene.cpp.s
+
+.PHONY : src/scenes/EditorScene.s
+
+# target to generate assembly for a file
+src/scenes/EditorScene.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/EditorScene.cpp.s
+.PHONY : src/scenes/EditorScene.cpp.s
+
+src/scenes/Scene.o: src/scenes/Scene.cpp.o
+
+.PHONY : src/scenes/Scene.o
+
+# target to build an object file
+src/scenes/Scene.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/Scene.cpp.o
+.PHONY : src/scenes/Scene.cpp.o
+
+src/scenes/Scene.i: src/scenes/Scene.cpp.i
+
+.PHONY : src/scenes/Scene.i
+
+# target to preprocess a source file
+src/scenes/Scene.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/Scene.cpp.i
+.PHONY : src/scenes/Scene.cpp.i
+
+src/scenes/Scene.s: src/scenes/Scene.cpp.s
+
+.PHONY : src/scenes/Scene.s
+
+# target to generate assembly for a file
+src/scenes/Scene.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/Scene.cpp.s
+.PHONY : src/scenes/Scene.cpp.s
+
+src/util/LightCube.o: src/util/LightCube.cpp.o
+
+.PHONY : src/util/LightCube.o
+
+# target to build an object file
+src/util/LightCube.cpp.o:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/util/LightCube.cpp.o
+.PHONY : src/util/LightCube.cpp.o
+
+src/util/LightCube.i: src/util/LightCube.cpp.i
+
+.PHONY : src/util/LightCube.i
+
+# target to preprocess a source file
+src/util/LightCube.cpp.i:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/util/LightCube.cpp.i
+.PHONY : src/util/LightCube.cpp.i
+
+src/util/LightCube.s: src/util/LightCube.cpp.s
+
+.PHONY : src/util/LightCube.s
+
+# target to generate assembly for a file
+src/util/LightCube.cpp.s:
+	$(MAKE) -f CMakeFiles/OpenGLLinuxTest1.dir/build.make CMakeFiles/OpenGLLinuxTest1.dir/src/util/LightCube.cpp.s
+.PHONY : src/util/LightCube.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -405,12 +648,21 @@ help:
 	@echo "... include/GLAD/glad.o"
 	@echo "... include/GLAD/glad.i"
 	@echo "... include/GLAD/glad.s"
-	@echo "... src/debug/Triangle2D.o"
-	@echo "... src/debug/Triangle2D.i"
-	@echo "... src/debug/Triangle2D.s"
+	@echo "... src/debug/DebugCube.o"
+	@echo "... src/debug/DebugCube.i"
+	@echo "... src/debug/DebugCube.s"
+	@echo "... src/debug/DebugPrism.o"
+	@echo "... src/debug/DebugPrism.i"
+	@echo "... src/debug/DebugPrism.s"
 	@echo "... src/engine/Camera.o"
 	@echo "... src/engine/Camera.i"
 	@echo "... src/engine/Camera.s"
+	@echo "... src/engine/Component.o"
+	@echo "... src/engine/Component.i"
+	@echo "... src/engine/Component.s"
+	@echo "... src/engine/GameObject.o"
+	@echo "... src/engine/GameObject.i"
+	@echo "... src/engine/GameObject.s"
 	@echo "... src/engine/Window.o"
 	@echo "... src/engine/Window.i"
 	@echo "... src/engine/Window.s"
@@ -420,18 +672,36 @@ help:
 	@echo "... src/renderer/IndexBuffer.o"
 	@echo "... src/renderer/IndexBuffer.i"
 	@echo "... src/renderer/IndexBuffer.s"
+	@echo "... src/renderer/Mesh.o"
+	@echo "... src/renderer/Mesh.i"
+	@echo "... src/renderer/Mesh.s"
 	@echo "... src/renderer/Renderer.o"
 	@echo "... src/renderer/Renderer.i"
 	@echo "... src/renderer/Renderer.s"
 	@echo "... src/renderer/Shader.o"
 	@echo "... src/renderer/Shader.i"
 	@echo "... src/renderer/Shader.s"
+	@echo "... src/renderer/Texture.o"
+	@echo "... src/renderer/Texture.i"
+	@echo "... src/renderer/Texture.s"
 	@echo "... src/renderer/VertexArray.o"
 	@echo "... src/renderer/VertexArray.i"
 	@echo "... src/renderer/VertexArray.s"
 	@echo "... src/renderer/VertexBuffer.o"
 	@echo "... src/renderer/VertexBuffer.i"
 	@echo "... src/renderer/VertexBuffer.s"
+	@echo "... src/renderer/stb.o"
+	@echo "... src/renderer/stb.i"
+	@echo "... src/renderer/stb.s"
+	@echo "... src/scenes/EditorScene.o"
+	@echo "... src/scenes/EditorScene.i"
+	@echo "... src/scenes/EditorScene.s"
+	@echo "... src/scenes/Scene.o"
+	@echo "... src/scenes/Scene.i"
+	@echo "... src/scenes/Scene.s"
+	@echo "... src/util/LightCube.o"
+	@echo "... src/util/LightCube.i"
+	@echo "... src/util/LightCube.s"
 .PHONY : help
 
 

@@ -1,4 +1,4 @@
-"/home/mu/Downloads/[FTUApps.com] - JetBrains CLion 2020.1 Build 201.6668.126 Win & MacOS & Linux + Crack/JetBrains CLion 2020.1 Build 201.6668.126 for Linux/CLion-2020.1/clion-2020.1/bin/cmake/linux/bin/cmake" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/mu/CLionProjects/GLProject
+/home/mu/Downloads/CLion/CLion/CLion-2020.1/clion-2020.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/mu/CLionProjects/GLProject
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/mu/CLionProjects/GLProject/cmake-build-debug

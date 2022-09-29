@@ -3,14 +3,43 @@
 
 CMakeFiles/OpenGLLinuxTest1.dir/include/GLAD/glad.c.o: ../include/GLAD/glad.c
 
-CMakeFiles/OpenGLLinuxTest1.dir/src/debug/Triangle2D.cpp.o: ../src/debug/Triangle2D.cpp
-CMakeFiles/OpenGLLinuxTest1.dir/src/debug/Triangle2D.cpp.o: ../src/debug/Triangle2D.h
-CMakeFiles/OpenGLLinuxTest1.dir/src/debug/Triangle2D.cpp.o: ../src/engine/Camera.h
-CMakeFiles/OpenGLLinuxTest1.dir/src/debug/Triangle2D.cpp.o: ../src/engine/Window.h
-CMakeFiles/OpenGLLinuxTest1.dir/src/debug/Triangle2D.cpp.o: ../src/renderer/IndexBuffer.h
-CMakeFiles/OpenGLLinuxTest1.dir/src/debug/Triangle2D.cpp.o: ../src/renderer/Shader.h
-CMakeFiles/OpenGLLinuxTest1.dir/src/debug/Triangle2D.cpp.o: ../src/renderer/VertexBuffer.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.o: ../imgui/imconfig.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.o: ../imgui/imgui.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.o: ../imgui/imgui_impl_glfw.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.o: ../imgui/imgui_impl_opengl3.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.o: ../include/stb/stb_image.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.o: ../src/debug/DebugCube.cpp
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.o: ../src/debug/DebugCube.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.o: ../src/engine/Camera.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.o: ../src/engine/Window.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.o: ../src/renderer/IndexBuffer.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.o: ../src/renderer/Mesh.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.o: ../src/renderer/Shader.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.o: ../src/renderer/Texture.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.o: ../src/renderer/VertexArray.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.o: ../src/renderer/VertexBuffer.h
 
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.o: ../imgui/imconfig.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.o: ../imgui/imgui.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.o: ../imgui/imgui_impl_glfw.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.o: ../imgui/imgui_impl_opengl3.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.o: ../include/stb/stb_image.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.o: ../src/debug/DebugPrism.cpp
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.o: ../src/debug/DebugPrism.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.o: ../src/engine/Camera.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.o: ../src/engine/Window.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.o: ../src/renderer/IndexBuffer.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.o: ../src/renderer/Mesh.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.o: ../src/renderer/Shader.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.o: ../src/renderer/Texture.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.o: ../src/renderer/VertexArray.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.o: ../src/renderer/VertexBuffer.h
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Camera.cpp.o: ../imgui/imconfig.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Camera.cpp.o: ../imgui/imgui.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Camera.cpp.o: ../imgui/imgui_impl_glfw.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Camera.cpp.o: ../imgui/imgui_impl_opengl3.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Camera.cpp.o: ../include/stb/stb_image.h
 CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Camera.cpp.o: ../src/engine/Camera.cpp
 CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Camera.cpp.o: ../src/engine/Camera.h
 CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Camera.cpp.o: ../src/engine/Window.h
@@ -18,14 +47,47 @@ CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Camera.cpp.o: ../src/renderer/IndexBu
 CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Camera.cpp.o: ../src/renderer/Shader.h
 CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Camera.cpp.o: ../src/renderer/VertexBuffer.h
 
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.o: ../imgui/imconfig.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.o: ../imgui/imgui.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.o: ../imgui/imgui_impl_glfw.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.o: ../imgui/imgui_impl_opengl3.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.o: ../include/stb/stb_image.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.o: ../src/engine/Camera.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.o: ../src/engine/Component.cpp
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.o: ../src/engine/Component.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.o: ../src/engine/Window.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.o: ../src/renderer/IndexBuffer.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.o: ../src/renderer/Mesh.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.o: ../src/renderer/Shader.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.o: ../src/renderer/Texture.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.o: ../src/renderer/VertexArray.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.o: ../src/renderer/VertexBuffer.h
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/GameObject.cpp.o: ../src/engine/GameObject.cpp
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/GameObject.cpp.o: ../src/engine/GameObject.h
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.o: ../imgui/imconfig.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.o: ../imgui/imgui.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.o: ../imgui/imgui_impl_glfw.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.o: ../imgui/imgui_impl_opengl3.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.o: ../include/stb/stb_image.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.o: ../src/debug/DebugCube.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.o: ../src/debug/DebugPrism.h
 CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.o: ../src/engine/Camera.h
 CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.o: ../src/engine/Window.cpp
 CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.o: ../src/engine/Window.h
 CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.o: ../src/renderer/IndexBuffer.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.o: ../src/renderer/Mesh.h
 CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.o: ../src/renderer/Shader.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.o: ../src/renderer/Texture.h
 CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.o: ../src/renderer/VertexArray.h
 CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.o: ../src/renderer/VertexBuffer.h
 
+CMakeFiles/OpenGLLinuxTest1.dir/src/main/Main.cpp.o: ../imgui/imconfig.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/main/Main.cpp.o: ../imgui/imgui.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/main/Main.cpp.o: ../imgui/imgui_impl_glfw.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/main/Main.cpp.o: ../imgui/imgui_impl_opengl3.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/main/Main.cpp.o: ../include/stb/stb_image.h
 CMakeFiles/OpenGLLinuxTest1.dir/src/main/Main.cpp.o: ../src/engine/Camera.h
 CMakeFiles/OpenGLLinuxTest1.dir/src/main/Main.cpp.o: ../src/engine/Window.h
 CMakeFiles/OpenGLLinuxTest1.dir/src/main/Main.cpp.o: ../src/main/Main.cpp
@@ -36,11 +98,31 @@ CMakeFiles/OpenGLLinuxTest1.dir/src/main/Main.cpp.o: ../src/renderer/VertexBuffe
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/IndexBuffer.cpp.o: ../src/renderer/IndexBuffer.cpp
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/IndexBuffer.cpp.o: ../src/renderer/IndexBuffer.h
 
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.o: ../imgui/imconfig.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.o: ../imgui/imgui.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.o: ../imgui/imgui_impl_glfw.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.o: ../imgui/imgui_impl_opengl3.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.o: ../include/stb/stb_image.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.o: ../src/engine/Camera.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.o: ../src/engine/Window.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.o: ../src/renderer/IndexBuffer.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.o: ../src/renderer/Mesh.cpp
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.o: ../src/renderer/Mesh.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.o: ../src/renderer/Shader.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.o: ../src/renderer/Texture.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.o: ../src/renderer/VertexArray.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.o: ../src/renderer/VertexBuffer.h
+
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Renderer.cpp.o: ../src/renderer/Renderer.cpp
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Renderer.cpp.o: ../src/renderer/Renderer.h
 
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Shader.cpp.o: ../src/renderer/Shader.cpp
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Shader.cpp.o: ../src/renderer/Shader.h
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Texture.cpp.o: ../include/stb/stb_image.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Texture.cpp.o: ../src/renderer/Shader.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Texture.cpp.o: ../src/renderer/Texture.cpp
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Texture.cpp.o: ../src/renderer/Texture.h
 
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexArray.cpp.o: ../src/renderer/VertexArray.cpp
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexArray.cpp.o: ../src/renderer/VertexArray.h
@@ -48,4 +130,14 @@ CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexArray.cpp.o: ../src/renderer/
 
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexBuffer.cpp.o: ../src/renderer/VertexBuffer.cpp
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexBuffer.cpp.o: ../src/renderer/VertexBuffer.h
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/stb.cpp.o: ../include/stb/stb_image.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/stb.cpp.o: ../src/renderer/stb.cpp
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/Scene.cpp.o: ../src/engine/GameObject.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/Scene.cpp.o: ../src/scenes/Scene.cpp
+CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/Scene.cpp.o: ../src/scenes/Scene.h
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/util/LightCube.cpp.o: ../src/util/LightCube.cpp
+CMakeFiles/OpenGLLinuxTest1.dir/src/util/LightCube.cpp.o: ../src/util/LightCube.h
 

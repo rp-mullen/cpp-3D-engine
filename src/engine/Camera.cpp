@@ -22,16 +22,19 @@ namespace engine {
         glm::mat4 projection = glm::mat4(1.0f);
 
         view = glm::lookAt(position, position + orientation, up);
-        projection = glm::perspective(glm::radians(FOVdeg), (float)width/height, nearPlane, farPlane);
+        projection = glm::perspective(glm::radians(FOVdeg), (float)(width/height), nearPlane, farPlane);
 
         cameraMatrix = projection * view;
     }
 
-    void Camera::Matrix(renderer::Shader &shader, const char *uniform) {
+    void Camera::upload(renderer::Shader& shader, const char *uniform) {
         glUniformMatrix4fv(glGetUniformLocation(shader.getID(),uniform), 1, GL_FALSE, glm::value_ptr(cameraMatrix));
     }
 
     void Camera::Inputs() {
+
+        t = Window::get()->getTime();
+
         // Handles key inputs
         if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
         {
@@ -66,6 +69,35 @@ namespace engine {
             speed = 0.1f;
         }
 
+        // TODO: make this better
+        if (glfwGetKey(window,GLFW_KEY_M)) {
+
+            if (wireframeEnabled == false ) {
+                if (!checkTime) {
+                    glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+                    wireframeEnabled = true;
+                    checkTime = true;
+                }
+
+            }
+            else {
+                if (!checkTime) {
+                    glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
+                    wireframeEnabled = false;
+                    checkTime = true;
+                }
+
+            }
+
+            M_time += 0.01f;
+
+            if ((M_time) >= 0.08f) {
+                checkTime = false;
+                M_time = 0.0f;
+            }
+
+        }
+
 
         // Handles mouse inputs
         if (glfwGetMouseButton(window, GLFW_MOUSE_BUTTON_LEFT) == GLFW_PRESS)
@@ -92,12 +124,12 @@ namespace engine {
             float rotY = sensitivity * (float)(mouseX - (width / 2)) / width;
 
             // Calculates upcoming vertical change in the orientation
-            glm::vec3 neworientation = glm::rotate(orientation, glm::radians(-rotX), glm::normalize(glm::cross(orientation, up)));
+            glm::vec3 newOrientation = glm::rotate(orientation, glm::radians(-rotX), glm::normalize(glm::cross(orientation, up)));
 
             // Decides whether or not the next vertical orientation is legal or not
-            if (abs(glm::angle(neworientation, up) - glm::radians(90.0f)) <= glm::radians(85.0f))
+            if (abs(glm::angle(newOrientation, up) - glm::radians(90.0f)) <= glm::radians(85.0f))
             {
-                orientation = neworientation;
+                orientation = newOrientation;
             }
 
             // Rotates the orientation left and right

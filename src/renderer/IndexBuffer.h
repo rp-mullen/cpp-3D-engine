@@ -6,6 +6,7 @@
 #define OPENGLLINUXTEST_INDEXBUFFER_H
 
 #include <GLES3/gl3.h>
+#include <vector>
 
 namespace renderer {
 
@@ -15,7 +16,7 @@ namespace renderer {
         unsigned int m_RendererID;
         unsigned int m_Count;
     public:
-        IndexBuffer(const unsigned int *data, unsigned int count);
+        IndexBuffer(std::vector<GLuint>& indices);
 
         ~IndexBuffer();
 

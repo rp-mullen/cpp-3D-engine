@@ -15,7 +15,7 @@ namespace renderer {
 
         VertexArray();
 
-        void LinkVBO(VertexBuffer& VBO, unsigned int layout);
+        void linkAttrib(VertexBuffer& VBO, unsigned int layout, unsigned int numComponents, GLenum type, GLsizeiptr stride, void* offset);
         void bind();
         void unbind();
         void destroy();

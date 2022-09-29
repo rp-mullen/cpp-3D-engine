@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = "/home/mu/Downloads/[FTUApps.com] - JetBrains CLion 2020.1 Build 201.6668.126 Win & MacOS & Linux + Crack/JetBrains CLion 2020.1 Build 201.6668.126 for Linux/CLion-2020.1/clion-2020.1/bin/cmake/linux/bin/cmake"
+CMAKE_COMMAND = /home/mu/Downloads/CLion/CLion/CLion-2020.1/clion-2020.1/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = "/home/mu/Downloads/[FTUApps.com] - JetBrains CLion 2020.1 Build 201.6668.126 Win & MacOS & Linux + Crack/JetBrains CLion 2020.1 Build 201.6668.126 for Linux/CLion-2020.1/clion-2020.1/bin/cmake/linux/bin/cmake" -E remove -f
+RM = /home/mu/Downloads/CLion/CLion/CLion-2020.1/clion-2020.1/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -64,11 +64,11 @@ CMakeFiles/OpenGLLinuxTest1.dir/src/main/Main.cpp.o: ../src/main/Main.cpp
 
 CMakeFiles/OpenGLLinuxTest1.dir/src/main/Main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLLinuxTest1.dir/src/main/Main.cpp.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mu/CLionProjects/GLProject/src/main/Main.cpp > CMakeFiles/OpenGLLinuxTest1.dir/src/main/Main.cpp.i
 
 CMakeFiles/OpenGLLinuxTest1.dir/src/main/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLLinuxTest1.dir/src/main/Main.cpp.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mu/CLionProjects/GLProject/src/main/Main.cpp -o CMakeFiles/OpenGLLinuxTest1.dir/src/main/Main.cpp.s
 
 CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.o: CMakeFiles/OpenGLLinuxTest1.dir/flags.make
 CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.o: ../src/engine/Window.cpp
@@ -77,11 +77,11 @@ CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.o: ../src/engine/Window.cp
 
 CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mu/CLionProjects/GLProject/src/engine/Window.cpp > CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.i
 
 CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mu/CLionProjects/GLProject/src/engine/Window.cpp -o CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.s
 
 CMakeFiles/OpenGLLinuxTest1.dir/include/GLAD/glad.c.o: CMakeFiles/OpenGLLinuxTest1.dir/flags.make
 CMakeFiles/OpenGLLinuxTest1.dir/include/GLAD/glad.c.o: ../include/GLAD/glad.c
@@ -90,11 +90,11 @@ CMakeFiles/OpenGLLinuxTest1.dir/include/GLAD/glad.c.o: ../include/GLAD/glad.c
 
 CMakeFiles/OpenGLLinuxTest1.dir/include/GLAD/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/OpenGLLinuxTest1.dir/include/GLAD/glad.c.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mu/CLionProjects/GLProject/include/GLAD/glad.c > CMakeFiles/OpenGLLinuxTest1.dir/include/GLAD/glad.c.i
 
 CMakeFiles/OpenGLLinuxTest1.dir/include/GLAD/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/OpenGLLinuxTest1.dir/include/GLAD/glad.c.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_C_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mu/CLionProjects/GLProject/include/GLAD/glad.c -o CMakeFiles/OpenGLLinuxTest1.dir/include/GLAD/glad.c.s
 
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Shader.cpp.o: CMakeFiles/OpenGLLinuxTest1.dir/flags.make
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Shader.cpp.o: ../src/renderer/Shader.cpp
@@ -103,89 +103,206 @@ CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Shader.cpp.o: ../src/renderer/Shade
 
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Shader.cpp.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mu/CLionProjects/GLProject/src/renderer/Shader.cpp > CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Shader.cpp.i
 
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Shader.cpp.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
-
-CMakeFiles/OpenGLLinuxTest1.dir/src/debug/Triangle2D.cpp.o: CMakeFiles/OpenGLLinuxTest1.dir/flags.make
-CMakeFiles/OpenGLLinuxTest1.dir/src/debug/Triangle2D.cpp.o: ../src/debug/Triangle2D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OpenGLLinuxTest1.dir/src/debug/Triangle2D.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLLinuxTest1.dir/src/debug/Triangle2D.cpp.o -c /home/mu/CLionProjects/GLProject/src/debug/Triangle2D.cpp
-
-CMakeFiles/OpenGLLinuxTest1.dir/src/debug/Triangle2D.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLLinuxTest1.dir/src/debug/Triangle2D.cpp.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
-
-CMakeFiles/OpenGLLinuxTest1.dir/src/debug/Triangle2D.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLLinuxTest1.dir/src/debug/Triangle2D.cpp.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mu/CLionProjects/GLProject/src/renderer/Shader.cpp -o CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Shader.cpp.s
 
 CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Camera.cpp.o: CMakeFiles/OpenGLLinuxTest1.dir/flags.make
 CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Camera.cpp.o: ../src/engine/Camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Camera.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Camera.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Camera.cpp.o -c /home/mu/CLionProjects/GLProject/src/engine/Camera.cpp
 
 CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Camera.cpp.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mu/CLionProjects/GLProject/src/engine/Camera.cpp > CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Camera.cpp.i
 
 CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Camera.cpp.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mu/CLionProjects/GLProject/src/engine/Camera.cpp -o CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Camera.cpp.s
 
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Renderer.cpp.o: CMakeFiles/OpenGLLinuxTest1.dir/flags.make
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Renderer.cpp.o: ../src/renderer/Renderer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Renderer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Renderer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Renderer.cpp.o -c /home/mu/CLionProjects/GLProject/src/renderer/Renderer.cpp
 
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Renderer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Renderer.cpp.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mu/CLionProjects/GLProject/src/renderer/Renderer.cpp > CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Renderer.cpp.i
 
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Renderer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Renderer.cpp.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mu/CLionProjects/GLProject/src/renderer/Renderer.cpp -o CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Renderer.cpp.s
 
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexBuffer.cpp.o: CMakeFiles/OpenGLLinuxTest1.dir/flags.make
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexBuffer.cpp.o: ../src/renderer/VertexBuffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexBuffer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexBuffer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexBuffer.cpp.o -c /home/mu/CLionProjects/GLProject/src/renderer/VertexBuffer.cpp
 
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexBuffer.cpp.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mu/CLionProjects/GLProject/src/renderer/VertexBuffer.cpp > CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexBuffer.cpp.i
 
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexBuffer.cpp.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mu/CLionProjects/GLProject/src/renderer/VertexBuffer.cpp -o CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexBuffer.cpp.s
 
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/IndexBuffer.cpp.o: CMakeFiles/OpenGLLinuxTest1.dir/flags.make
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/IndexBuffer.cpp.o: ../src/renderer/IndexBuffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/IndexBuffer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/IndexBuffer.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/IndexBuffer.cpp.o -c /home/mu/CLionProjects/GLProject/src/renderer/IndexBuffer.cpp
 
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/IndexBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/IndexBuffer.cpp.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mu/CLionProjects/GLProject/src/renderer/IndexBuffer.cpp > CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/IndexBuffer.cpp.i
 
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/IndexBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/IndexBuffer.cpp.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mu/CLionProjects/GLProject/src/renderer/IndexBuffer.cpp -o CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/IndexBuffer.cpp.s
 
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexArray.cpp.o: CMakeFiles/OpenGLLinuxTest1.dir/flags.make
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexArray.cpp.o: ../src/renderer/VertexArray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexArray.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexArray.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexArray.cpp.o -c /home/mu/CLionProjects/GLProject/src/renderer/VertexArray.cpp
 
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexArray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexArray.cpp.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_PREPROCESSED_SOURCE
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mu/CLionProjects/GLProject/src/renderer/VertexArray.cpp > CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexArray.cpp.i
 
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexArray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexArray.cpp.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_CXX_CREATE_ASSEMBLY_SOURCE
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mu/CLionProjects/GLProject/src/renderer/VertexArray.cpp -o CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexArray.cpp.s
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Texture.cpp.o: CMakeFiles/OpenGLLinuxTest1.dir/flags.make
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Texture.cpp.o: ../src/renderer/Texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Texture.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Texture.cpp.o -c /home/mu/CLionProjects/GLProject/src/renderer/Texture.cpp
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Texture.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mu/CLionProjects/GLProject/src/renderer/Texture.cpp > CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Texture.cpp.i
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Texture.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mu/CLionProjects/GLProject/src/renderer/Texture.cpp -o CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Texture.cpp.s
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/stb.cpp.o: CMakeFiles/OpenGLLinuxTest1.dir/flags.make
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/stb.cpp.o: ../src/renderer/stb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/stb.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/stb.cpp.o -c /home/mu/CLionProjects/GLProject/src/renderer/stb.cpp
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/stb.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/stb.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mu/CLionProjects/GLProject/src/renderer/stb.cpp > CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/stb.cpp.i
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/stb.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/stb.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mu/CLionProjects/GLProject/src/renderer/stb.cpp -o CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/stb.cpp.s
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/util/LightCube.cpp.o: CMakeFiles/OpenGLLinuxTest1.dir/flags.make
+CMakeFiles/OpenGLLinuxTest1.dir/src/util/LightCube.cpp.o: ../src/util/LightCube.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/OpenGLLinuxTest1.dir/src/util/LightCube.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLLinuxTest1.dir/src/util/LightCube.cpp.o -c /home/mu/CLionProjects/GLProject/src/util/LightCube.cpp
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/util/LightCube.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLLinuxTest1.dir/src/util/LightCube.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mu/CLionProjects/GLProject/src/util/LightCube.cpp > CMakeFiles/OpenGLLinuxTest1.dir/src/util/LightCube.cpp.i
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/util/LightCube.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLLinuxTest1.dir/src/util/LightCube.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mu/CLionProjects/GLProject/src/util/LightCube.cpp -o CMakeFiles/OpenGLLinuxTest1.dir/src/util/LightCube.cpp.s
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.o: CMakeFiles/OpenGLLinuxTest1.dir/flags.make
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.o: ../src/renderer/Mesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.o -c /home/mu/CLionProjects/GLProject/src/renderer/Mesh.cpp
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mu/CLionProjects/GLProject/src/renderer/Mesh.cpp > CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.i
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mu/CLionProjects/GLProject/src/renderer/Mesh.cpp -o CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.s
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.o: CMakeFiles/OpenGLLinuxTest1.dir/flags.make
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.o: ../src/debug/DebugCube.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.o -c /home/mu/CLionProjects/GLProject/src/debug/DebugCube.cpp
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mu/CLionProjects/GLProject/src/debug/DebugCube.cpp > CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.i
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mu/CLionProjects/GLProject/src/debug/DebugCube.cpp -o CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.s
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.o: CMakeFiles/OpenGLLinuxTest1.dir/flags.make
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.o: ../src/debug/DebugPrism.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.o -c /home/mu/CLionProjects/GLProject/src/debug/DebugPrism.cpp
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mu/CLionProjects/GLProject/src/debug/DebugPrism.cpp > CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.i
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mu/CLionProjects/GLProject/src/debug/DebugPrism.cpp -o CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.s
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/Scene.cpp.o: CMakeFiles/OpenGLLinuxTest1.dir/flags.make
+CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/Scene.cpp.o: ../src/scenes/Scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/Scene.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/Scene.cpp.o -c /home/mu/CLionProjects/GLProject/src/scenes/Scene.cpp
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/Scene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/Scene.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mu/CLionProjects/GLProject/src/scenes/Scene.cpp > CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/Scene.cpp.i
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/Scene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/Scene.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mu/CLionProjects/GLProject/src/scenes/Scene.cpp -o CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/Scene.cpp.s
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/GameObject.cpp.o: CMakeFiles/OpenGLLinuxTest1.dir/flags.make
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/GameObject.cpp.o: ../src/engine/GameObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/OpenGLLinuxTest1.dir/src/engine/GameObject.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLLinuxTest1.dir/src/engine/GameObject.cpp.o -c /home/mu/CLionProjects/GLProject/src/engine/GameObject.cpp
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/GameObject.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLLinuxTest1.dir/src/engine/GameObject.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mu/CLionProjects/GLProject/src/engine/GameObject.cpp > CMakeFiles/OpenGLLinuxTest1.dir/src/engine/GameObject.cpp.i
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/GameObject.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLLinuxTest1.dir/src/engine/GameObject.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mu/CLionProjects/GLProject/src/engine/GameObject.cpp -o CMakeFiles/OpenGLLinuxTest1.dir/src/engine/GameObject.cpp.s
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.o: CMakeFiles/OpenGLLinuxTest1.dir/flags.make
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.o: ../src/engine/Component.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.o -c /home/mu/CLionProjects/GLProject/src/engine/Component.cpp
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mu/CLionProjects/GLProject/src/engine/Component.cpp > CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.i
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mu/CLionProjects/GLProject/src/engine/Component.cpp -o CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.s
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/EditorScene.cpp.o: CMakeFiles/OpenGLLinuxTest1.dir/flags.make
+CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/EditorScene.cpp.o: ../src/scenes/EditorScene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/EditorScene.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/EditorScene.cpp.o -c /home/mu/CLionProjects/GLProject/src/scenes/EditorScene.cpp
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/EditorScene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/EditorScene.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mu/CLionProjects/GLProject/src/scenes/EditorScene.cpp > CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/EditorScene.cpp.i
+
+CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/EditorScene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/EditorScene.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mu/CLionProjects/GLProject/src/scenes/EditorScene.cpp -o CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/EditorScene.cpp.s
 
 # Object files for target OpenGLLinuxTest1
 OpenGLLinuxTest1_OBJECTS = \
@@ -193,12 +310,21 @@ OpenGLLinuxTest1_OBJECTS = \
 "CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.o" \
 "CMakeFiles/OpenGLLinuxTest1.dir/include/GLAD/glad.c.o" \
 "CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Shader.cpp.o" \
-"CMakeFiles/OpenGLLinuxTest1.dir/src/debug/Triangle2D.cpp.o" \
 "CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Camera.cpp.o" \
 "CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Renderer.cpp.o" \
 "CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexBuffer.cpp.o" \
 "CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/IndexBuffer.cpp.o" \
-"CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexArray.cpp.o"
+"CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexArray.cpp.o" \
+"CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Texture.cpp.o" \
+"CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/stb.cpp.o" \
+"CMakeFiles/OpenGLLinuxTest1.dir/src/util/LightCube.cpp.o" \
+"CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.o" \
+"CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.o" \
+"CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.o" \
+"CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/Scene.cpp.o" \
+"CMakeFiles/OpenGLLinuxTest1.dir/src/engine/GameObject.cpp.o" \
+"CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.o" \
+"CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/EditorScene.cpp.o"
 
 # External object files for target OpenGLLinuxTest1
 OpenGLLinuxTest1_EXTERNAL_OBJECTS =
@@ -207,15 +333,24 @@ OpenGLLinuxTest1: CMakeFiles/OpenGLLinuxTest1.dir/src/main/Main.cpp.o
 OpenGLLinuxTest1: CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.o
 OpenGLLinuxTest1: CMakeFiles/OpenGLLinuxTest1.dir/include/GLAD/glad.c.o
 OpenGLLinuxTest1: CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Shader.cpp.o
-OpenGLLinuxTest1: CMakeFiles/OpenGLLinuxTest1.dir/src/debug/Triangle2D.cpp.o
 OpenGLLinuxTest1: CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Camera.cpp.o
 OpenGLLinuxTest1: CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Renderer.cpp.o
 OpenGLLinuxTest1: CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexBuffer.cpp.o
 OpenGLLinuxTest1: CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/IndexBuffer.cpp.o
 OpenGLLinuxTest1: CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexArray.cpp.o
+OpenGLLinuxTest1: CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Texture.cpp.o
+OpenGLLinuxTest1: CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/stb.cpp.o
+OpenGLLinuxTest1: CMakeFiles/OpenGLLinuxTest1.dir/src/util/LightCube.cpp.o
+OpenGLLinuxTest1: CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.o
+OpenGLLinuxTest1: CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.o
+OpenGLLinuxTest1: CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.o
+OpenGLLinuxTest1: CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/Scene.cpp.o
+OpenGLLinuxTest1: CMakeFiles/OpenGLLinuxTest1.dir/src/engine/GameObject.cpp.o
+OpenGLLinuxTest1: CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.o
+OpenGLLinuxTest1: CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/EditorScene.cpp.o
 OpenGLLinuxTest1: CMakeFiles/OpenGLLinuxTest1.dir/build.make
 OpenGLLinuxTest1: CMakeFiles/OpenGLLinuxTest1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable OpenGLLinuxTest1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mu/CLionProjects/GLProject/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable OpenGLLinuxTest1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenGLLinuxTest1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

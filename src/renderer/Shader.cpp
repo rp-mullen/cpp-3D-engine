@@ -125,10 +125,7 @@ namespace renderer {
     }
 
     void Shader::use() {
-        if (!beingUsed) {
-            glUseProgram(shaderProgramID);
-            beingUsed = true;
-        }
+        glUseProgram(shaderProgramID);
     }
 
     void Shader::detach() {

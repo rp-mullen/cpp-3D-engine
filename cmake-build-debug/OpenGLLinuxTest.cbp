@@ -43,7 +43,15 @@
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j12 -f &quot;/home/mu/CLionProjects/GLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGLLinuxTest1"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/mu/CLionProjects/GLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
@@ -57,7 +65,15 @@
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
-				<Compiler/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/../../../../include/c++/12.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j12 -f &quot;/home/mu/CLionProjects/GLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpenGLLinuxTest1/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/mu/CLionProjects/GLProject/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
@@ -72,16 +88,37 @@
 		<Unit filename="/home/mu/CLionProjects/GLProject/include/GLAD/glad.h">
 			<Option target="OpenGLLinuxTest1"/>
 		</Unit>
-		<Unit filename="/home/mu/CLionProjects/GLProject/src/debug/Triangle2D.cpp">
+		<Unit filename="/home/mu/CLionProjects/GLProject/include/stb/stb_image.h">
 			<Option target="OpenGLLinuxTest1"/>
 		</Unit>
-		<Unit filename="/home/mu/CLionProjects/GLProject/src/debug/Triangle2D.h">
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/debug/DebugCube.cpp">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/debug/DebugCube.h">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/debug/DebugPrism.cpp">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/debug/DebugPrism.h">
 			<Option target="OpenGLLinuxTest1"/>
 		</Unit>
 		<Unit filename="/home/mu/CLionProjects/GLProject/src/engine/Camera.cpp">
 			<Option target="OpenGLLinuxTest1"/>
 		</Unit>
 		<Unit filename="/home/mu/CLionProjects/GLProject/src/engine/Camera.h">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/engine/Component.cpp">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/engine/Component.h">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/engine/GameObject.cpp">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/engine/GameObject.h">
 			<Option target="OpenGLLinuxTest1"/>
 		</Unit>
 		<Unit filename="/home/mu/CLionProjects/GLProject/src/engine/Window.cpp">
@@ -99,6 +136,12 @@
 		<Unit filename="/home/mu/CLionProjects/GLProject/src/renderer/IndexBuffer.h">
 			<Option target="OpenGLLinuxTest1"/>
 		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/renderer/Mesh.cpp">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/renderer/Mesh.h">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
 		<Unit filename="/home/mu/CLionProjects/GLProject/src/renderer/Renderer.cpp">
 			<Option target="OpenGLLinuxTest1"/>
 		</Unit>
@@ -111,6 +154,12 @@
 		<Unit filename="/home/mu/CLionProjects/GLProject/src/renderer/Shader.h">
 			<Option target="OpenGLLinuxTest1"/>
 		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/renderer/Texture.cpp">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/renderer/Texture.h">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
 		<Unit filename="/home/mu/CLionProjects/GLProject/src/renderer/VertexArray.cpp">
 			<Option target="OpenGLLinuxTest1"/>
 		</Unit>
@@ -121,6 +170,27 @@
 			<Option target="OpenGLLinuxTest1"/>
 		</Unit>
 		<Unit filename="/home/mu/CLionProjects/GLProject/src/renderer/VertexBuffer.h">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/renderer/stb.cpp">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/scenes/EditorScene.cpp">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/scenes/EditorScene.h">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/scenes/Scene.cpp">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/scenes/Scene.h">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/util/LightCube.cpp">
+			<Option target="OpenGLLinuxTest1"/>
+		</Unit>
+		<Unit filename="/home/mu/CLionProjects/GLProject/src/util/LightCube.h">
 			<Option target="OpenGLLinuxTest1"/>
 		</Unit>
 		<Unit filename="/home/mu/CLionProjects/GLProject/src/util/Settings.h">

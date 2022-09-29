@@ -3,30 +3,92 @@
 
 CMakeFiles/OpenGLLinuxTest1.dir/include/GLAD/glad.c.o
  /home/mu/CLionProjects/GLProject/include/GLAD/glad.c
-CMakeFiles/OpenGLLinuxTest1.dir/src/debug/Triangle2D.cpp.o
- /home/mu/CLionProjects/GLProject/src/debug/Triangle2D.cpp
- /home/mu/CLionProjects/GLProject/src/debug/Triangle2D.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugCube.cpp.o
+ /home/mu/CLionProjects/GLProject/imgui/imconfig.h
+ /home/mu/CLionProjects/GLProject/imgui/imgui.h
+ /home/mu/CLionProjects/GLProject/imgui/imgui_impl_glfw.h
+ /home/mu/CLionProjects/GLProject/imgui/imgui_impl_opengl3.h
+ /home/mu/CLionProjects/GLProject/include/stb/stb_image.h
+ /home/mu/CLionProjects/GLProject/src/debug/DebugCube.cpp
+ /home/mu/CLionProjects/GLProject/src/debug/DebugCube.h
  /home/mu/CLionProjects/GLProject/src/engine/Camera.h
  /home/mu/CLionProjects/GLProject/src/engine/Window.h
  /home/mu/CLionProjects/GLProject/src/renderer/IndexBuffer.h
+ /home/mu/CLionProjects/GLProject/src/renderer/Mesh.h
  /home/mu/CLionProjects/GLProject/src/renderer/Shader.h
+ /home/mu/CLionProjects/GLProject/src/renderer/Texture.h
+ /home/mu/CLionProjects/GLProject/src/renderer/VertexArray.h
+ /home/mu/CLionProjects/GLProject/src/renderer/VertexBuffer.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/debug/DebugPrism.cpp.o
+ /home/mu/CLionProjects/GLProject/imgui/imconfig.h
+ /home/mu/CLionProjects/GLProject/imgui/imgui.h
+ /home/mu/CLionProjects/GLProject/imgui/imgui_impl_glfw.h
+ /home/mu/CLionProjects/GLProject/imgui/imgui_impl_opengl3.h
+ /home/mu/CLionProjects/GLProject/include/stb/stb_image.h
+ /home/mu/CLionProjects/GLProject/src/debug/DebugPrism.cpp
+ /home/mu/CLionProjects/GLProject/src/debug/DebugPrism.h
+ /home/mu/CLionProjects/GLProject/src/engine/Camera.h
+ /home/mu/CLionProjects/GLProject/src/engine/Window.h
+ /home/mu/CLionProjects/GLProject/src/renderer/IndexBuffer.h
+ /home/mu/CLionProjects/GLProject/src/renderer/Mesh.h
+ /home/mu/CLionProjects/GLProject/src/renderer/Shader.h
+ /home/mu/CLionProjects/GLProject/src/renderer/Texture.h
+ /home/mu/CLionProjects/GLProject/src/renderer/VertexArray.h
  /home/mu/CLionProjects/GLProject/src/renderer/VertexBuffer.h
 CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Camera.cpp.o
+ /home/mu/CLionProjects/GLProject/imgui/imconfig.h
+ /home/mu/CLionProjects/GLProject/imgui/imgui.h
+ /home/mu/CLionProjects/GLProject/imgui/imgui_impl_glfw.h
+ /home/mu/CLionProjects/GLProject/imgui/imgui_impl_opengl3.h
+ /home/mu/CLionProjects/GLProject/include/stb/stb_image.h
  /home/mu/CLionProjects/GLProject/src/engine/Camera.cpp
  /home/mu/CLionProjects/GLProject/src/engine/Camera.h
  /home/mu/CLionProjects/GLProject/src/engine/Window.h
  /home/mu/CLionProjects/GLProject/src/renderer/IndexBuffer.h
  /home/mu/CLionProjects/GLProject/src/renderer/Shader.h
  /home/mu/CLionProjects/GLProject/src/renderer/VertexBuffer.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Component.cpp.o
+ /home/mu/CLionProjects/GLProject/imgui/imconfig.h
+ /home/mu/CLionProjects/GLProject/imgui/imgui.h
+ /home/mu/CLionProjects/GLProject/imgui/imgui_impl_glfw.h
+ /home/mu/CLionProjects/GLProject/imgui/imgui_impl_opengl3.h
+ /home/mu/CLionProjects/GLProject/include/stb/stb_image.h
+ /home/mu/CLionProjects/GLProject/src/engine/Camera.h
+ /home/mu/CLionProjects/GLProject/src/engine/Component.cpp
+ /home/mu/CLionProjects/GLProject/src/engine/Component.h
+ /home/mu/CLionProjects/GLProject/src/engine/Window.h
+ /home/mu/CLionProjects/GLProject/src/renderer/IndexBuffer.h
+ /home/mu/CLionProjects/GLProject/src/renderer/Mesh.h
+ /home/mu/CLionProjects/GLProject/src/renderer/Shader.h
+ /home/mu/CLionProjects/GLProject/src/renderer/Texture.h
+ /home/mu/CLionProjects/GLProject/src/renderer/VertexArray.h
+ /home/mu/CLionProjects/GLProject/src/renderer/VertexBuffer.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/engine/GameObject.cpp.o
+ /home/mu/CLionProjects/GLProject/src/engine/GameObject.cpp
+ /home/mu/CLionProjects/GLProject/src/engine/GameObject.h
 CMakeFiles/OpenGLLinuxTest1.dir/src/engine/Window.cpp.o
+ /home/mu/CLionProjects/GLProject/imgui/imconfig.h
+ /home/mu/CLionProjects/GLProject/imgui/imgui.h
+ /home/mu/CLionProjects/GLProject/imgui/imgui_impl_glfw.h
+ /home/mu/CLionProjects/GLProject/imgui/imgui_impl_opengl3.h
+ /home/mu/CLionProjects/GLProject/include/stb/stb_image.h
+ /home/mu/CLionProjects/GLProject/src/debug/DebugCube.h
+ /home/mu/CLionProjects/GLProject/src/debug/DebugPrism.h
  /home/mu/CLionProjects/GLProject/src/engine/Camera.h
  /home/mu/CLionProjects/GLProject/src/engine/Window.cpp
  /home/mu/CLionProjects/GLProject/src/engine/Window.h
  /home/mu/CLionProjects/GLProject/src/renderer/IndexBuffer.h
+ /home/mu/CLionProjects/GLProject/src/renderer/Mesh.h
  /home/mu/CLionProjects/GLProject/src/renderer/Shader.h
+ /home/mu/CLionProjects/GLProject/src/renderer/Texture.h
  /home/mu/CLionProjects/GLProject/src/renderer/VertexArray.h
  /home/mu/CLionProjects/GLProject/src/renderer/VertexBuffer.h
 CMakeFiles/OpenGLLinuxTest1.dir/src/main/Main.cpp.o
+ /home/mu/CLionProjects/GLProject/imgui/imconfig.h
+ /home/mu/CLionProjects/GLProject/imgui/imgui.h
+ /home/mu/CLionProjects/GLProject/imgui/imgui_impl_glfw.h
+ /home/mu/CLionProjects/GLProject/imgui/imgui_impl_opengl3.h
+ /home/mu/CLionProjects/GLProject/include/stb/stb_image.h
  /home/mu/CLionProjects/GLProject/src/engine/Camera.h
  /home/mu/CLionProjects/GLProject/src/engine/Window.h
  /home/mu/CLionProjects/GLProject/src/main/Main.cpp
@@ -36,12 +98,32 @@ CMakeFiles/OpenGLLinuxTest1.dir/src/main/Main.cpp.o
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/IndexBuffer.cpp.o
  /home/mu/CLionProjects/GLProject/src/renderer/IndexBuffer.cpp
  /home/mu/CLionProjects/GLProject/src/renderer/IndexBuffer.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Mesh.cpp.o
+ /home/mu/CLionProjects/GLProject/imgui/imconfig.h
+ /home/mu/CLionProjects/GLProject/imgui/imgui.h
+ /home/mu/CLionProjects/GLProject/imgui/imgui_impl_glfw.h
+ /home/mu/CLionProjects/GLProject/imgui/imgui_impl_opengl3.h
+ /home/mu/CLionProjects/GLProject/include/stb/stb_image.h
+ /home/mu/CLionProjects/GLProject/src/engine/Camera.h
+ /home/mu/CLionProjects/GLProject/src/engine/Window.h
+ /home/mu/CLionProjects/GLProject/src/renderer/IndexBuffer.h
+ /home/mu/CLionProjects/GLProject/src/renderer/Mesh.cpp
+ /home/mu/CLionProjects/GLProject/src/renderer/Mesh.h
+ /home/mu/CLionProjects/GLProject/src/renderer/Shader.h
+ /home/mu/CLionProjects/GLProject/src/renderer/Texture.h
+ /home/mu/CLionProjects/GLProject/src/renderer/VertexArray.h
+ /home/mu/CLionProjects/GLProject/src/renderer/VertexBuffer.h
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Renderer.cpp.o
  /home/mu/CLionProjects/GLProject/src/renderer/Renderer.cpp
  /home/mu/CLionProjects/GLProject/src/renderer/Renderer.h
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Shader.cpp.o
  /home/mu/CLionProjects/GLProject/src/renderer/Shader.cpp
  /home/mu/CLionProjects/GLProject/src/renderer/Shader.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/Texture.cpp.o
+ /home/mu/CLionProjects/GLProject/include/stb/stb_image.h
+ /home/mu/CLionProjects/GLProject/src/renderer/Shader.h
+ /home/mu/CLionProjects/GLProject/src/renderer/Texture.cpp
+ /home/mu/CLionProjects/GLProject/src/renderer/Texture.h
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexArray.cpp.o
  /home/mu/CLionProjects/GLProject/src/renderer/VertexArray.cpp
  /home/mu/CLionProjects/GLProject/src/renderer/VertexArray.h
@@ -49,3 +131,13 @@ CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexArray.cpp.o
 CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/VertexBuffer.cpp.o
  /home/mu/CLionProjects/GLProject/src/renderer/VertexBuffer.cpp
  /home/mu/CLionProjects/GLProject/src/renderer/VertexBuffer.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/renderer/stb.cpp.o
+ /home/mu/CLionProjects/GLProject/include/stb/stb_image.h
+ /home/mu/CLionProjects/GLProject/src/renderer/stb.cpp
+CMakeFiles/OpenGLLinuxTest1.dir/src/scenes/Scene.cpp.o
+ /home/mu/CLionProjects/GLProject/src/engine/GameObject.h
+ /home/mu/CLionProjects/GLProject/src/scenes/Scene.cpp
+ /home/mu/CLionProjects/GLProject/src/scenes/Scene.h
+CMakeFiles/OpenGLLinuxTest1.dir/src/util/LightCube.cpp.o
+ /home/mu/CLionProjects/GLProject/src/util/LightCube.cpp
+ /home/mu/CLionProjects/GLProject/src/util/LightCube.h

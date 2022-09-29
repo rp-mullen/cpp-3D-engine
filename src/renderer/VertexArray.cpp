@@ -10,9 +10,9 @@ namespace renderer {
         glGenVertexArrays(1,&vaoID);
     }
 
-    void VertexArray::LinkVBO(VertexBuffer& VBO, unsigned int layout) {
+    void VertexArray::linkAttrib(VertexBuffer& VBO, GLuint layout, GLuint numComponents, GLenum type, GLsizeiptr stride, void* offset) {
         VBO.bind();
-        glVertexAttribPointer(layout, 3, GL_FLOAT, GL_FALSE, 0, nullptr);
+        glVertexAttribPointer(layout, numComponents, type, GL_FALSE, stride, offset);
         glEnableVertexAttribArray(layout);
         VBO.unbind();
     }
